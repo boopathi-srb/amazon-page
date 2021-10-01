@@ -1,0 +1,188 @@
+body{
+  font-family: 'source sans pro',sans-serif;
+}
+.topbar{
+  background-color: hsl(0, 0%, 4%);
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.topbar>img{
+  width: 5%;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 49%;
+
+}
+.maincontainer{
+  padding: 4% 12%;
+  margin-top: 5%;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  columns: 20em;
+  
+}
+.ProductPreview{
+  width: 100%;
+  position: relative;
+}
+.productdetails{
+  width: 100%;
+}
+.ProductPreview > img{
+  width: 100%;
+}
+.producttitle{
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+.productdescription{
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+.selectionheading{
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+.productimage{
+  width: 100%;
+  max-width: 20%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin-right: 12px;
+  cursor: pointer;
+  position: sticky;
+}
+.selectedproductimage{
+  border: 2px solid teal;
+}
+.featurename{
+  background-color: rgb(155, 153, 152);
+  border-radius: 8px;
+  border: none;
+  padding: 12px 24px;
+  min-width: 30%;
+  margin-right: 5%;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+  box-sizing: content-box;
+  margin-bottom: 5%;
+}
+.selectedfeature{
+  color: aliceblue;
+  background-color: rgb(77, 74, 75);
+}
+.buynowbtn{
+  color: rgb(230, 230, 238);
+  background-color: rgb(175, 16, 16);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.3em;
+  padding: 12px 24px;
+  margin-top: 20px;
+  min-width: 60px;
+  font-weight: 600;
+}
+.timedata{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 4em;
+}
+.heartbeatdata{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-12%, -50%);
+  color: white;
+  font-size: 4em;
+
+}
+
+.heartbeatdata>img{
+  width: 20%;
+  height: 50px;
+  animation: beat 1s infinite;
+  
+}
+@keyframes beat {
+  0%{
+    transform: scale(1,1);
+  }
+  50%{
+    transform: scale(1.2,1.2);
+  }
+}
+@media only screen and (max-width: 768px)
+{
+  .maincontainer
+  {
+    display: grid;
+  }
+  .timedata{
+    font-size: 1em;
+    margin-top: 5%;
+  }
+  .heartbeatdata{
+    font-size: 1em;
+    display: grid;
+    transform: translate(-10%, -40%);
+  
+  }
+  
+  .heartbeatdata>img{
+    width: 20%;
+    height: 20px;
+    animation: beat 1s infinite;
+    
+  }
+  @keyframes beat {
+    0%{
+      transform: scale(1,1);
+    }
+    50%{
+      transform: scale(1.2,1.2);
+    }
+  }
+  .topbar{
+    position: relative;
+    background-color: hsl(0, 0%, 4%);
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .topbar>img{
+    width: 5%;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 49%;
+  }
+  .ProductPreview>img{
+    margin-top: 10%;
+  }
+
+  
+}
