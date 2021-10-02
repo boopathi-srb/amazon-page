@@ -143,17 +143,19 @@ body{
   .heartbeatdata{
     font-size: 1em;
     transform: translate(-10%, -40%);
+    display: block;
   
   }
   .heartbeatdata>p{
-    position: absolute;
+    margin-left: 3px;
 
   }
   
   .heartbeatdata>img{
+    margin-bottom: 0%;
     width: 20%;
     height: 20px;
-    animation: beat 1s infinite;
+    animation: beat 0.5s infinite;
     
   }
   @keyframes beat {
