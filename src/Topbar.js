@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './App.module.css';
-import logo from "./amazonlogo.png";
+import logo from "./logo.png";
 
 const Topbar =()=>{
   return(

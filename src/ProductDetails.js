@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './App.module.css';
-import BuyNow from './BuyNow.js';
+// import {  BrowserRouter as Router } from 'react-router-dom';
 
 
 const ProductDetails=(props)=>{
@@ -48,8 +48,10 @@ const ProductDetails=(props)=>{
             <div>
               {featureList}
             </div>
-            <button onClick=
-            {BuyNow} className={classes.buynowbtn}>Buy Now</button>
+  
+              <a  href="https://www.fitbit.com/global/us/products/smartwatches/sense?sku=512SRSG" className={classes.buynowbtn}>Buy Now</a>
+           
+           
     </div>
   );
 }

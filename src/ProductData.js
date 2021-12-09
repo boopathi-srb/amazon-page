@@ -1,6 +1,6 @@
 const ProductData = {
-    title: 'FitBit 19 - The Smartest Watch',
-    description: 'Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor.',
+    title: 'FitBit sense - The Smartest Watch',
+    description: 'A smartwatch is a wearable computing device that closely resembles a wristwatch or other time-keeping device. In addition to telling time, many smartwatches are Bluetooth-capable. The watch becomes, in effect, a wireless Bluetooth adaptor capable of extending the capabilities of the wearers smartphone to the watch.',
     colorOptions: [
         {
             styleName: 'Black Strap',
