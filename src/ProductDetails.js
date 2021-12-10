@@ -48,7 +48,7 @@ const ProductDetails=(props)=>{
             <div>
               {featureList}
             </div>
-            <button  className={classes.buynowbtn}>Buy Now</button>
+            <a href="https://www.fitbit.com/global/us/products/smartwatches/sense?sku=512SRSG"  className={classes.buynowbtn}>Buy Now</a>
     </div>
   );
 }
