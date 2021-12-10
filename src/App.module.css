@@ -14,7 +14,7 @@ body{
   z-index: 999;
 }
 .topbar>img{
-  width: 5%;
+  width: 15%;
   text-align: center;
   position: absolute;
   top: 0%;
@@ -29,7 +29,7 @@ body{
   align-items: center;
   display: flex;
   columns: 20em;
-  
+
 }
 .ProductPreview{
   width: 100%;
@@ -42,13 +42,13 @@ body{
   width: 100%;
 }
 .producttitle{
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 5%;
 }
 .productdescription{
-  font-size: 1.0em;
+  font-size: 1em;
   font-weight: 500;
   margin-top: 0;
   margin-bottom: 5%;
@@ -94,8 +94,8 @@ body{
   border-radius: 8px;
   cursor: pointer;
   font-size: 1.3em;
-  text-decoration: none;
   padding: 12px 24px;
+  text-decoration: none;
   margin-top: 20px;
   min-width: 60px;
   font-weight: 600;
@@ -122,7 +122,7 @@ body{
   width: 20%;
   height: 50px;
   animation: beat 1s infinite;
-  
+
 }
 @keyframes beat {
   0%{
@@ -144,21 +144,16 @@ body{
   }
   .heartbeatdata{
     font-size: 1em;
+    display: grid;
     transform: translate(-10%, -40%);
-    display: block;
-  
-  }
-  .heartbeatdata>p{
-    margin-left: 3px;
 
   }
-  
+
   .heartbeatdata>img{
-    margin-bottom: 0%;
     width: 20%;
     height: 20px;
-    animation: beat 0.5s infinite;
-    
+    animation: beat 1s infinite;
+
   }
   @keyframes beat {
     0%{
@@ -181,35 +176,19 @@ body{
     justify-content: center;
   }
   .topbar>img{
-    width: 10%;
+    width: 15%;
     text-align: center;
     position: absolute;
-    top: 25%;
-    left: 45%;
+    top: 0%;
+    left: 44%;
   }
   .ProductPreview>img{
     margin-top: 10%;
   }
-  .producttitle{
-    font-size: 2rem;
-  }
-  .productdescription{
-    font-size: 0.5rem;
-  }
-  .selectionheading{
-    font-size: 1rem;
-  }
   .featurename{
-    font-size: 0.5em;
-    min-width: 10%;
-  }
-  .buynowbtn{
-    font-size: 1em;
-  }
-  .productimage{
-    width: 15%;
-    display:inline-flex;
+    min-width: 15%;
+    font-size: 0.7em;
   }
 
-  
+
 }

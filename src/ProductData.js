@@ -1,6 +1,6 @@
 const ProductData = {
-    title: 'FitBit sense - The Smartest Watch',
-    description: 'A smartwatch is a wearable computing device that closely resembles a wristwatch or other time-keeping device. In addition to telling time, many smartwatches are Bluetooth-capable. The watch becomes, in effect, a wireless Bluetooth adaptor capable of extending the capabilities of the wearers smartphone to the watch.',
+    title: 'FitBit Sense - The Smartest Watch',
+    description: 'Fitbit Sense is a smartwatch that can be connected to your smartphone via Bluetooth. It shows your pulse rate when enabled and shows time as like as a normal watch.',
     colorOptions: [
         {
             styleName: 'Black Strap',
@@ -26,4 +26,4 @@ const ProductData = {
 
 Object.freeze(ProductData); //This line of code just makes your object as a constant. No values can be updated.
 
-export default ProductData;
+export default ProductData; 

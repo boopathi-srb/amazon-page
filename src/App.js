@@ -5,6 +5,7 @@ import ProductDetails from './ProductDetails';
 import Topbar from './Topbar'
 import ProductData from './ProductData';
 
+
 class App extends Component{
   state={
     productData: ProductData,
@@ -15,21 +16,14 @@ class App extends Component{
     this.setState({currentpreviewimagepos:pos});
   }
   onFeatureItemClick = (pos) => {
-    
+
   this.setState({currentselectedfeature: pos});
   }
-  shouldComponentUpdate(nextProps, nextState){
-    if(nextState.currentpreviewimagepos===this.state.currentpreviewimagepos){
-      return false;
-    }else{
-      return true;
-    }
-  }
- 
-  
+
+
   render()
   {
- 
+
   return (
     <div className="App">
       <header className="App-header">
@@ -40,7 +34,7 @@ class App extends Component{
           <ProductPreview currentpreviewimage={
             this.state.productData.colorOptions[this.state.currentpreviewimagepos].imageUrl}
             currentselectedfeature={this.state.currentselectedfeature}
-            
+
          />
         </div>
         <div className={classes.productdetails}>
@@ -54,7 +48,7 @@ class App extends Component{
   }
 
 }
-  
+
 
 
 export default App;

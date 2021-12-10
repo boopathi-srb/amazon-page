@@ -1,6 +1,6 @@
 import React from "react";
 import classes from './App.module.css';
-// import {  BrowserRouter as Router } from 'react-router-dom';
+// import BuyNow from './BuyNow.js';
 
 
 const ProductDetails=(props)=>{
@@ -31,11 +31,11 @@ const ProductDetails=(props)=>{
       <button onClick ={() => props.onFeatureItemClick(pos)} key={pos} 
       className={classArr.join(' ')}>{item}</button>
     );
-    
+
 
 
   })
-  
+
   return(
     <div>
             <h1 className={classes.producttitle}>{props.data.title}</h1>
@@ -48,10 +48,7 @@ const ProductDetails=(props)=>{
             <div>
               {featureList}
             </div>
-  
-              <a  href="https://www.fitbit.com/global/us/products/smartwatches/sense?sku=512SRSG" className={classes.buynowbtn}>Buy Now</a>
-           
-           
+            <button  className={classes.buynowbtn}>Buy Now</button>
     </div>
   );
 }
