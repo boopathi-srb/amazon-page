@@ -14,7 +14,7 @@ body{
   z-index: 999;
 }
 .topbar>img{
-  width: 15%;
+  width: 5%;
   text-align: center;
   position: absolute;
   top: 0%;
@@ -189,6 +189,8 @@ body{
     min-width: 15%;
     font-size: 0.7em;
   }
-
+  .productimage{
+    max-width: 18%;
+  }
 
 }
